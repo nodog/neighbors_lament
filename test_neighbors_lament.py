@@ -35,7 +35,8 @@ def test_valid_neighbor_case_3():
 def test_swap_value_i_with_next_highest_value():
     assert(neighbors_lament.swap_value_i_with_next_highest_value([5,1,2,3,4], 0)) == [4,1,2,3,5]
     assert(neighbors_lament.swap_value_i_with_next_highest_value([5,1,2,4,3], 0)) == [4,1,2,5,3]
+    assert(neighbors_lament.swap_value_i_with_next_highest_value([5,4,2,4,1], 2)) == [5,4,1,5,2]
     assert(neighbors_lament.swap_value_i_with_next_highest_value([9,9,8,9,9], 0)) == [8,9,9,9,9]
-    assert(neighbors_lament.swap_value_i_with_next_highest_value([9,9,8,8,9], 0)) == [8,9,9,8,9]
+    assert(neighbors_lament.swap_value_i_with_next_highest_value([9,9,8,8,9], 1)) == [9,8,9,8,9]
     assert(neighbors_lament.swap_value_i_with_next_highest_value([1,1,2,3,4], 0)) == None
     assert(neighbors_lament.swap_value_i_with_next_highest_value([1,1,2], 0)) == None
