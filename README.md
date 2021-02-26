@@ -8,7 +8,7 @@ Take an integer as input, and output the largest integer below that uses the sam
 * input 53442, output is 53424
 * 34278 -> 32874
 
-## My runs:
+### my runs:
 ```
 lesser_neighbor(54823) = 54382
 lesser_neighbor(978675) = 978657
